@@ -1,0 +1,160 @@
+body {
+font-family: Arial, sans-serif;
+background-image: url(IMG/bg.jpg);
+margin: 10px auto;
+padding: 15px;
+}
+.container {
+max-width: 1000px;
+margin: 20px auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2 {
+text-align: center;
+color: #333;
+background-color: bisque;
+max-width: 300px;
+margin: 0  auto;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+th, td {
+padding: 10px;
+text-align: left;
+}
+th {
+background-color: #007bff;
+color: #fff;
+}
+td {
+background-color: #f9f9f9;
+}
+tbody tr:hover {
+background-color: #e9ecef;
+}
+.pagination {
+width: 15%;
+min-width: 15%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.pagination select {
+padding: 8px;
+font-size: 14px;
+color: url(IMG/bg.jpg);
+}
+.pagination ul {
+list-style-type: none;
+padding: 10px;
+margin: 0;
+display: flex;
+width: 90%;
+min-width: 90%;
+margin: auto;
+}
+.pagination li {
+margin-right: 5px;
+
+}
+#CRUD{
+width: 17%;
+min-width: 17%;
+margin: auto;
+}
+#alterBtn,#addBtn,#deleteBtn,#saveBtn,#logout{
+padding: 6px 10px;
+background-color: #007bff;
+color: #fff;
+border-radius: 4px;
+transition: background-color 0.3s;
+margin: 0 auto
+}
+#alterBtn:hover,#addBtn:hover,#deleteBtn:hover,#saveBtn:hover,#logout:hover{
+background-color: #0056b3;
+margin: 0 auto
+}
+
+.pagination a {
+display: block;
+padding: 8px 12px;
+background-color: #007bff;
+color: #fff;
+text-decoration: none;
+border-radius: 4px;
+transition: background-color 0.3s;
+margin: 0 auto
+}
+.pagination a:hover {
+background-color: #0056b3;
+margin: 0 auto
+}
+.button-container {
+margin-top: 20px;
+text-align: center;
+}
+.button-container button {
+padding: 8px 18px;
+font-size: 16px;
+cursor: pointer;
+margin: 0 5px;
+background-color: #28a745;
+color: #fff;
+border: none;
+border-radius: 4px;
+transition: background-color 0.3s;
+}
+.button-container button:hover {
+background-color: #218838;
+}
+#userForm {
+margin-top: 20px;
+display: none;
+background-color: #f9f9f9;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#userForm h2 {
+margin-top: 0;
+color: #333;
+}
+#userForm label {
+display: block;
+margin-top: 10px;
+color: #555;
+}
+#userForm input[type="text"], 
+#userForm input[type="email"], 
+#userForm input[type="password"], 
+#userForm select {
+width: 100%;
+padding: 8px;
+font-size: 14px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+#userForm button[type="button"] {
+margin-top: 10px;
+padding: 10px 20px;
+font-size: 16px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+#userForm button[type="button"]:hover {
+background-color: #0056b3;
+}

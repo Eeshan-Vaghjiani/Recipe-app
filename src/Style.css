@@ -1,0 +1,637 @@
+/* Make the logo image circular */
+#logo {
+    /* Rounds the corners of the logo image to create a circular shape */
+    border-radius: 50%;
+    /* Sets the width of the logo image to 100px */
+    width: 100px;
+    /* Centers the logo image horizontally */
+    margin: auto;
+    /* Adds padding to the logo image */
+    padding: 10px 10px 10px 0px ;
+}
+
+/* Position the buttons on the right side */
+#btn {
+    /* Displays the buttons as a flex container */
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -110px;
+    margin-right:2%;
+}
+
+/* Center the recipe section */
+#recipe {
+    /* Centers the recipe section horizontally */
+    margin: 0 auto;
+}
+.recipehead{
+  margin-top: 150px;
+}
+/* Styling for buttons */
+.buttons {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsla(194 100% 69% / 1);
+  --btn-bg-2: hsla(217 100% 56% / 1);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  margin: 5px;
+  min-width: 100px;
+  min-height: 24px;
+  font-size: var(--size, 1rem);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+}
+
+.buttons:hover {
+  background-position: right top;
+}
+
+.buttons:is(:focus, :focus-visible, :active) {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .buttons {
+    transition: linear;
+  }
+}
+
+#prof{
+  height: 50px;
+ width: 50px;
+ border-radius: 50%;
+ margin-left: -6px;
+}
+
+.profile{
+ height: 54px;
+ width: 54px;
+ border-radius: 50%;
+ 
+}
+#usernamesession{
+text-align: center;
+margin-top: -1px;
+margin-left: -15px;
+}
+#name {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  line-height: 100px;
+}
+
+
+/* Center the title */
+#title {
+    /* Centers the title horizontally */
+    text-align: center;
+    margin-top: -85px;
+    font-size: 70px;
+}
+
+/* Make the header permanent */
+header {
+    /* Sets the position of the header to fixed */
+    position: fixed;
+    /* Sets the top and left positions of the header to 0 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: antiquewhite;
+}
+
+/* Styling for info section */
+#info {
+    /* Centers the info section horizontally */
+    margin: auto;
+    /* Sets the top margin of the info section to -690px */
+    margin-top: -690px;
+    /* Sets the font size of the info section to 30px */
+    font-size: 30px;
+    /* Sets the width of the info section to 600px */
+    width: 600px;
+}
+
+/* Styling for intro section */
+#intro {
+    /* Centers the intro section horizontally */
+    margin: -10px auto;
+    font-size: 30px;
+    width: 200px;
+    border-radius: 50px;
+    color: #ffffff;
+    /* Sets the cursor to a pointer when hovered over the intro section */
+    cursor: pointer;
+    /* Adds a transition effect to the intro section */
+   transition: all 0.3s ease;
+    /* Positions the intro section relative to its parent container */
+    position: relative;
+    /* Displays the intro section as an inline block element */
+    display: inline-block;
+    /* Adds a box shadow to the intro section */
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),7px 7px 20px 0px rgba(0,0,0,.1),4px 4px 5px 0px rgba(0,0,0,.1);
+    /* Removes the outline of the intro section */
+    outline: none;
+    /* Sets the background of the intro section to a linear gradient */
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+    /* Removes the border of the intro section */
+    border: none;
+}
+
+/* Styling for intro section on hover */
+#intro:hover {
+    /* Adds a box shadow to the intro section on hover */
+    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+/* Styling for div1 section */
+#div1 {
+    /* Sets the top margin of the div1 section to 500px */
+    margin-top: 500px;
+}
+
+/* Styling for txt1 section */
+#txt1 {
+    /* Sets the font size of the txt1 section to 50px */
+    font-size: 50px;
+    /* Centers the txt1 section horizontally */
+    text-align: center;
+}
+
+/* Styling for txt2 section */
+#txt2 {
+    /* Sets the font size of the txt2 section to 30px */
+    font-size: 30px;
+}
+
+/* Styling for beef section */
+#beef {
+    /* Sets the width of the beef section to 400px */
+    width: 400px;
+}
+
+/* Styling for img1 section */
+#img1 {
+    margin-left: 20px;
+}
+
+/* Styling for pizza section */
+#pizza {
+    /* Sets the width of the pizza section to 400px */
+    width: 400px;
+}
+
+/* Styling for img2 section */
+#img2 {
+    margin-left: 550px;
+    margin-top: -290px;
+}
+
+/* Styling for carbonara section */
+#carbonara {
+    /* Sets the width of the carbonara section to 400px */
+    width: 400px;
+    height: 225px;
+}
+
+/* Styling for img3 section */
+#img3 {
+
+    margin-left: 1080px;
+    margin-top: -290px;
+}
+#main {
+    margin: 0;
+    color: black;
+    font: 600 16px/18px "Open Sans", sans-serif;
+    background-image: url(/RECIPE/IMG/intro.jpg);
+  }
+  *,
+  :after,
+  :before {
+    box-sizing: border-box;
+  }
+  .clearfix:after,
+  .clearfix:before {
+    content: "";
+    display: table;
+  }
+  .clearfix:after {
+    clear: both;
+    display: block;
+  }
+  a {
+    text-decoration: none;
+  }
+  .login-wrap {
+    width: 100%;
+    margin: 150px auto;
+    color: black;  
+    max-width: 525px;
+    min-height: 670px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(10px); 
+  }
+  .login-html {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 90px 70px 50px 70px;
+   
+  }
+  .login-html .sign-in-htm,
+  .login-html .sign-up-htm {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all 0.4s linear;
+  }
+  .login-html .sign-in,
+  .login-html .sign-up,
+  .login-form .group .check {
+    display: none;
+  }
+  .login-html .tab,
+  .login-form .group .label,
+  .login-form .group .button {
+    text-transform: uppercase;
+  }
+  .login-html .tab {
+    font-size: 22px;
+    margin-right: 15px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    margin: 0 15px 10px 0;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+  }
+  .login-html .sign-in:checked + .tab,
+  .login-html .sign-up:checked + .tab {
+    color: black;
+    border-color: #1161ee;
+    cursor: pointer;
+  }
+  .login-form {
+    min-height: 345px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+  }
+  .login-form .group {
+    margin-bottom: 15px;
+  }
+  .login-form .group .label,
+  .login-form .group .input,
+  .login-form .group .button {
+    width: 100%;
+    color: black;
+    display: block;
+  }
+
+
+  .login-form .group .input,
+  .login-form .group .button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  .login-form .group input[data-type="password"] {
+    -webkit-text-security: circle;
+  }
+  .login-form .group .label {
+    color: black;
+    font-size: 12px;
+  }
+  .login-form .group .button {
+    background: #1161ee;
+    cursor: pointer;
+  }
+  .login-form .group .button:hover {
+      background:#1454c4;
+      cursor: pointer;
+    }
+  .login-form .group label .icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .login-form .group label .icon:before,
+  .login-form .group label .icon:after {
+    content: "";
+    width: 10px;
+    height: 2px;
+    background: #f3bcbc;
+    position: absolute;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  .login-form .group label .icon:before {
+    left: 3px;
+    width: 5px;
+    bottom: 6px;
+    transform: scale(0) rotate(0);
+  }
+  .login-form .group label .icon:after {
+    top: 6px;
+    right: 0;
+    transform: scale(0) rotate(0);
+  }
+  .login-form .group .check:checked + label {
+    color:black;
+  }
+  .login-form .group .check:checked + label .icon {
+    background: #1161ee;
+  }
+  .login-form .group .check:checked + label .icon:before {
+    transform: scale(1) rotate(45deg);
+  }
+  .login-form .group .check:checked + label .icon:after {
+    transform: scale(1) rotate(-45deg);
+  }
+  .login-html
+    .sign-in:checked
+    + .tab
+    + .sign-up
+    + .tab
+    + .login-form
+    .sign-in-htm {
+    transform: rotate(0);
+  }
+  .login-html .sign-up:checked + .tab + .login-form .sign-up-htm {
+    transform: rotate(0);
+  }
+  .hr {
+    height: 2px;
+    margin: 60px 0 50px 0;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .foot-lnk {
+    text-align: center;
+  } /* Increase the size of recipe images */
+  .recipe-image {
+      max-width: 200px; /* Adjust the maximum width as needed */
+      max-height: 200px; /* Adjust the maximum height as needed */
+      margin-bottom: 10px; /* Add some margin between images */
+  }
+
+body{
+  background-image: url(/RECIPE/IMG/bg.jpg);
+}
+.profile-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.profile-container h1 {
+  text-align: center;
+}
+.profile-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+.profile-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.profile-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+}
+
+
+.contents{
+  width: 1600px;
+  padding: 20px;
+  background-color: #faebd7;
+  margin: 0 auto;
+  border-radius: 20px;
+
+
+}
+
+#specialcontent{
+  margin-bottom: 100%;
+  padding: 20px;
+}
+
+.indeximg{
+  border-radius: 5px;
+}
+
+#submitbtn{
+  font-weight: bold;
+  margin: 50px 700px;
+}
+
+
+/* Add your CSS styles here */
+
+        /* Increase the size of recipe images */
+        .recipe-image {
+          max-width: 200px; /* Adjust the maximum width as needed */
+          max-height: 200px; /* Adjust the maximum height as needed */
+          margin-bottom: 10px; /* Add some margin between images */
+          transition: transform 0.3s ease; /* Add smooth transition effect */
+      }
+
+      /* Style the list items to create a grid layout */
+      ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust column width as needed */
+          grid-gap: 20px; /* Add some gap between grid items */
+      }
+
+      /* Style individual recipe items */
+      li {
+          border: 1px solid #ddd; /* Add a border around each recipe item */
+          padding: 10px;
+          text-align: center;
+          cursor: pointer; /* Add cursor pointer for clickable items */
+          transition: transform 0.3s ease; /* Add smooth transition effect */
+      }
+
+      /* Style the zoomed-in recipe */
+      li:target {
+          transform: scale(1.2); /* Zoom in effect */
+          z-index: 1; /* Ensure zoomed item stays on top */
+      }
+
+      li:onclick {
+        transform: scale(1.2); /* Zoom in effect */
+        z-index: 1; /* Ensure zoomed item stays on top */
+      }
+
+
+      .body {
+        font-family: Arial, sans-serif;
+        
+        padding: 0;
+        background-image: url(/RECIPE/IMG/bg.jpg);
+        color: #333;
+    }
+    
+    
+    
+    .main-content {
+      margin-top: 400px;
+      background-color: #faebd7;
+      padding: 20px;
+      max-width: 1200px;
+      
+    }
+    
+    .section {
+        margin-bottom: 40px;
+    }
+    
+    .section-title {
+        color: #ff6600;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    
+    .subsection-title {
+        font-size: 1.5em;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .section-text {
+        font-size: 1.2em;
+        line-height: 1.6em;
+    }
+    
+    .favorite-item {
+        display: inline-block;
+        width: 30%;
+        margin-right: 1.5%;
+        vertical-align: top;
+        text-align: center;
+    }
+    
+    .favorite-image {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .favorite-title {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+
+    /* Common Styles */
+
+
+/* Contact Page Specific Styles */
+
+#contact-main-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 00px;
+  
+}
+
+#contact-section {
+  margin-bottom: 40px;
+}
+
+#contact-section-title {
+  color: #ff6600;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#contact-section-text {
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+#contact-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  bottom: 0;
+}
+
+.contact-link {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.contact-link i {
+  margin-right: 10px;
+  font-size: 1.8em;
+}
+
+.contact-link:hover {
+  transform: scale(1.1);
+}
+
+#gmail-link:hover {
+  color: #db4437;
+}
+
+#instagram-link:hover {
+  color: #e4405f;
+}
+
+#twitter-link:hover {
+  color: #1da1f2;
+}
+
+#indmain{
+  height: 3200px;
+  
+}
+
+    
+
+    
+
+
+ 
